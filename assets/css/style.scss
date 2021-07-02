@@ -227,9 +227,9 @@ button{
     height: 100%;
  }
 ////////DESING PART////////////// 
-@include minwidth(1466px){
+@include minwidth(1520px){
     .container{
-        max-width: 1466px;
+        max-width: 1520px;
     }
 }
 //////////////////////newwwwwwwwwwwwwwwwww
@@ -289,7 +289,7 @@ button{
             justify-content: center;
             align-items: center;
             h1{
-                font-family: $primary-font;
+                font-family: $primary-font !important;
                 color: $secondary;
                 font-size: 36px;
                 line-height: 42px;
@@ -326,7 +326,7 @@ button{
             ul{
                 padding-top: 20px;
                 display: none;
-                text-align: right;
+                //text-align: right;
             }
             li{
                 list-style: none;
@@ -389,13 +389,14 @@ button{
             display: flex;  
             ul{
                 display: flex;
-                padding-top: 40px;
+                padding-top: 120px;
+                padding-bottom: 100px;
             }
             li{
                 list-style: none;
-                padding-left: 80px !important;
+                padding-left: 100px !important;
                 &:not(:last-child){
-                    padding-left: 35px !important;
+                    padding-left: 10px !important;
                 }
                 a{
                     text-decoration: none;
@@ -414,6 +415,9 @@ button{
             .firstmenu{
                 width: 33.33%;
                 display: block;
+                ul{
+                    justify-content: flex-end !important;
+                }
             }
             .logo{
                 width: 33.33%;
@@ -436,6 +440,9 @@ button{
             .secondmenu{
                 width: 33.33%;
                 display: block !important;
+                ul{
+                    justify-content: flex-start !important;
+                }
                 .dnone{
                     display: none;
                 }
@@ -589,7 +596,7 @@ button{
         display: flex;
         .contentwrapper{
             text-align: center;
-            //padding-top: 340px;
+            padding-top: 600px;
             h1{
                 font-family: $playfair-italicbold;
                 font-size: 72px;
@@ -625,14 +632,14 @@ button{
     .banner{
         position: relative;
         background-image: url(../images/banner.png);
-        height: 1000px;
+        height: 1318px;
         width: 100%;
         justify-content: center;
         align-items: center;
         display: flex;
         .contentwrapper{
             text-align: center;
-            //padding-top: 340px;
+            padding: 600px 0px 380px 0px;
             h1{
                 font-family: $playfair-italicbold;
                 font-size: 72px;
@@ -647,7 +654,7 @@ button{
                 font-size: 24px;
                 line-height: 48px;
                 font-weight: 400;
-                padding: 30px 150px;
+                margin: 55px 140px 55px 140px;
             }
             button{
                 background-color: rgba(0, 0, 0, 0.15);
@@ -657,6 +664,7 @@ button{
                 font-weight: 400;
                 font-size: 30px;
                 line-height: 48px;
+                padding: 15px 50px;
                 &:hover{
                     background-color: rgba(0, 0, 0, 0.75);;
                 }
@@ -861,6 +869,7 @@ button{
                 padding: 0 250px;
             }
         }
+    }
         .item-menu{
             ul{
                 display: flex;
@@ -868,7 +877,7 @@ button{
                 li{
                     color: $secondary;
                     list-style: none;
-                    padding: 12px 15px;
+                    padding: 15px 25px;
                     display: flex;
                     border: 1px solid $third;
                     text-align: center;
@@ -903,7 +912,7 @@ button{
             }
         }
         
-    }
+
 }
 }
 @include minwidth(1140px){
@@ -941,6 +950,7 @@ button{
                 padding: 0 250px;
             }
         }
+    }
         .item-menu{
             ul{
                 display: flex;
@@ -983,11 +993,11 @@ button{
             }
         }
         
-    }
 }
-}@include minwidth(1400px){
+}
+@include minwidth(1400px){
     .isotopewrapper{
-        padding: 135px 0px;
+        padding: 135px 0px 300px 0px;
         .textarea{
             color: $third;
             h1{
@@ -1000,9 +1010,9 @@ button{
                    position: absolute;
                    content: '';
                    background-color: $secondary;
-                   width: 275px;
+                   width: 245px;
                    height: 2px;
-                   top: 25%;
+                   top: 8%;
                    left: 0;   
                    display: block;
                }
@@ -1010,29 +1020,36 @@ button{
                    position: absolute;
                    content: '';
                    background-color: $secondary;
-                   width: 275px;
+                   width: 245px;
                    height: 2px;
-                   top: 25%;
+                   top: 8%;
                    right: 0;
                    display: block;
             }
-            p{
-                padding: 0 250px;
-            }
+           
         }
+        p{
+            margin: 0 350px;
+            font-family: $secondary-font;
+            font-size: 24px;
+            line-height: 48px;
+            padding: 60px 0px 100px 0px;
+        }
+    }
         .item-menu{
             ul{
                 display: flex;
                 justify-content: center;
+                padding-bottom: 155px;
                 li{
                     color: $secondary;
                     list-style: none;
-                    padding: 12px 15px;
+                    padding: 20px 55px;
                     display: flex;
                     border: 1px solid $third;
                     text-align: center;
                     cursor: pointer;
-                    margin: 50px;
+                    margin: 55px;
                     &:hover{
                         background-color: $secondary;
                         color: $content;
@@ -1052,17 +1069,17 @@ button{
             button{
                 background-color: $content;
                 font-family: $button-font;
-                font-size: 18px;
-                line-height: 30px;
+                font-size: 22px;
+                font-weight: 400;
                 border: 1px solid $third;
                 border-radius: unset;
-                padding: 2px 5px;
+                padding: 20px 45px;
                 color: $third;
-                margin-left: 45px;
+                margin-top: 60px;
             }
         }
         
-    }
+    
 }
 }
 .isotope-item{
@@ -1282,10 +1299,49 @@ button{
         }
     }
 }
+@include minwidth(1400px){
+    .brekfastwrapper{
+        background-color: $secondary;
+        margin-top: 150px !important;
+        .aboutRpdd{
+            padding: unset;
+        }
+        .about-txt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $secondary;
+            height: 550px;
+            padding-left: 123px;
+            padding-right: 180px;
+            h2{
+                color: $content;
+                font-family: $playfair-italicbold;
+                font-size: 72px;
+                line-height: 82px;
+                font-weight: 700;
+        
+            }
+        }
+        .about-image{
+            padding-right: 0px;
+            img{
+                height: 550px;
+                width: 100%;
+                object-fit: cover;
+                
+            }
+        }
+        .nul-padd{
+            padding: unset;
+        }
+    }
+}
 /////////////////card start
 
 .cardwrapper{
     margin-top: 50px;
+}
      .textarea{
          h1{
              font-family: $playfair-italicbold;
@@ -1368,7 +1424,11 @@ button{
         }
      }
      @include minwidth(1400px){
+        .cardwrapper{
+            margin-top: 145px;
+        }
         .textarea{
+            padding: 0px 0px 100px 0px;
             h1{
                 font-family: $playfair-italicbold;
                 font-size: 72px;
@@ -1378,9 +1438,9 @@ button{
                 &::before{
                     position: absolute;
                     content: '';
-                    top: 20%;
-                    left: 5px;
-                    width: 275px;
+                    top: 8%;
+                    left: 0;
+                    width: 245px;
                     height: 2px;
                     background-color: $secondary;
                     display: block;
@@ -1388,9 +1448,9 @@ button{
                 &::after{
                    position: absolute;
                    content: '';
-                   top: 20%;
-                   right: 5px;
-                   width: 275px;
+                   top: 8%;
+                   right: 0;
+                   width: 245px;
                    height: 2px;
                    background-color: $secondary;
                    display: block;
@@ -1402,9 +1462,10 @@ button{
                 font-size: 24px;
                 line-height: 48px;
                 color: $third;
-                padding: 0px 170px;
+                padding: 70px 170px;
             }
         }
+        
      }
 
 
@@ -1430,7 +1491,35 @@ button{
             border: 1px solid $third;
         }
     }
-}
+    @include minwidth(1400px){
+        .crdconte{
+            padding: 0px 85PX 140PX 85PX;
+            h1{
+                color: $third;
+                font-size: 30px;
+                line-height: 40px;
+                font-weight: 700;
+                font-family: $primary-font;
+            }
+            p{
+                font-family: $secondary-font;
+                color: $third;
+                font-size: 18px;
+                line-height: 48px;
+                font-weight: 400;
+            }
+            button{
+                background-color: rgba(0, 0, 0, 0);
+                color: $third;
+                border: 1px solid $third;
+                padding: 20px 40px;
+                font-family: $button-font;
+                font-size: 30px;
+                line-height: 48px;
+                margin-top: 70px;
+            }
+        }
+    }
 /////card enbd
 //////footer banner
 .footerbanner{
@@ -1516,6 +1605,50 @@ button{
         }
     }
 }
+@include minwidth(1400px){
+    .footerbanner{
+        background-image: url(../images/footer.png);
+        height: 650px;
+        width: 100%;
+    }
+    .contain-are{
+          padding-bottom: 145px;
+        h1{
+            padding-top: 130px;
+            font-family: $playfair-italicbold;
+            font-size: 72px;
+            line-height: 82px;
+        }
+        input{
+            width: 50%;
+            text-align: center;
+            font-size: 25PX;
+            line-height: 30PX;
+            font-family: $button-font;
+            font-weight: 400;
+            background-color: rgba(0, 0, 0, 0);
+            color: $content;
+            padding: 30px 216px;
+            margin: 40px 0px;
+            text-transform: uppercase;
+        }
+        button{
+            background-color: $secondary;
+            color: $content;
+            border: none;
+            font-family: $button-font;
+            font-weight: 700;
+            font-size: 29.97px;
+            line-height: 47.95px;
+            padding: 14px 45px;
+            &:hover{
+                background-color: $content;
+                color: $secondary;
+                border: none;
+            }
+        }
+    }
+}
 /////////////footer
 .footer{
     .copyrightsec{
@@ -1524,18 +1657,24 @@ button{
             color: $third;
             font-size: 16;
             font-family: $secondary-font;
+            text-align: center;
         }
         ul{
             display: flex;
             justify-content: center;
+            padding: 0px;
             li{
                 list-style: none;
-                padding: 5px;
+                padding: 3px;
                 
                 a{
                     font-family: $secondary-font;
                     text-decoration: none;
                     color: $third;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: $secondary;
+                    }
                 }
             }
         }
@@ -1554,6 +1693,32 @@ button{
                 li{
                     list-style: none;
                     padding-left: 20px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: $third;
+                    }
+                }
+            }
+        }
+    }
+}
+@include minwidth(1400px){
+    .footer{
+        .copyrightsec{
+            padding: 30px 0px;
+            p{
+                color: $third;
+                text-align: start;
+                padding: 70px 0px;
+            }
+            ul{
+                display: flex;
+                justify-content: end;
+                padding: 70px 0px;
+                li{
+                    list-style: none;
+                    padding:0px 20px;
                     
                     a{
                         text-decoration: none;

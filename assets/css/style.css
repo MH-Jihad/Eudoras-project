@@ -11084,9 +11084,9 @@ button:hover {
   height: 100%;
 }
 
-@media only screen and (min-width: 1466px) {
+@media only screen and (min-width: 1520px) {
   .container {
-    max-width: 1466px;
+    max-width: 1520px;
   }
 }
 
@@ -11159,7 +11159,7 @@ button:hover {
 }
 
 .navBar .two-col-logo .logo h1 {
-  font-family: "Playfair-display";
+  font-family: "Playfair-display" !important;
   color: #E59205;
   font-size: 36px;
   line-height: 42px;
@@ -11202,7 +11202,6 @@ button:hover {
   .navBar .two-col-logo ul {
     padding-top: 20px;
     display: none;
-    text-align: right;
   }
   .navBar .two-col-logo li {
     list-style: none;
@@ -11273,14 +11272,15 @@ button:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 40px;
+    padding-top: 120px;
+    padding-bottom: 100px;
   }
   .navBar .two-col-logo li {
     list-style: none;
-    padding-left: 80px !important;
+    padding-left: 100px !important;
   }
   .navBar .two-col-logo li:not(:last-child) {
-    padding-left: 35px !important;
+    padding-left: 10px !important;
   }
   .navBar .two-col-logo li a {
     text-decoration: none;
@@ -11297,6 +11297,11 @@ button:hover {
   .navBar .two-col-logo .firstmenu {
     width: 33.33%;
     display: block;
+  }
+  .navBar .two-col-logo .firstmenu ul {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
   }
   .navBar .two-col-logo .logo {
     width: 33.33%;
@@ -11325,6 +11330,11 @@ button:hover {
   .navBar .two-col-logo .secondmenu {
     width: 33.33%;
     display: block !important;
+  }
+  .navBar .two-col-logo .secondmenu ul {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
   .navBar .two-col-logo .secondmenu .dnone {
     display: none;
@@ -11507,6 +11517,7 @@ button:hover {
   }
   .banner .contentwrapper {
     text-align: center;
+    padding-top: 600px;
   }
   .banner .contentwrapper h1 {
     font-family: "playfair-bitalic";
@@ -11542,7 +11553,7 @@ button:hover {
   .banner {
     position: relative;
     background-image: url(../images/banner.png);
-    height: 1000px;
+    height: 1318px;
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -11556,6 +11567,7 @@ button:hover {
   }
   .banner .contentwrapper {
     text-align: center;
+    padding: 600px 0px 380px 0px;
   }
   .banner .contentwrapper h1 {
     font-family: "playfair-bitalic";
@@ -11571,7 +11583,7 @@ button:hover {
     font-size: 24px;
     line-height: 48px;
     font-weight: 400;
-    padding: 30px 150px;
+    margin: 55px 140px 55px 140px;
   }
   .banner .contentwrapper button {
     background-color: rgba(0, 0, 0, 0.15);
@@ -11581,6 +11593,7 @@ button:hover {
     font-weight: 400;
     font-size: 30px;
     line-height: 48px;
+    padding: 15px 50px;
   }
   .banner .contentwrapper button:hover {
     background-color: rgba(0, 0, 0, 0.75);
@@ -11810,7 +11823,7 @@ button:hover {
   .isotopewrapper .textarea h1 p {
     padding: 0 250px;
   }
-  .isotopewrapper .textarea .item-menu ul {
+  .isotopewrapper .item-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11818,10 +11831,10 @@ button:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .isotopewrapper .textarea .item-menu ul li {
+  .isotopewrapper .item-menu ul li {
     color: #E59205;
     list-style: none;
-    padding: 12px 15px;
+    padding: 15px 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11830,11 +11843,11 @@ button:hover {
     cursor: pointer;
     margin: 50px;
   }
-  .isotopewrapper .textarea .item-menu ul li:hover {
+  .isotopewrapper .item-menu ul li:hover {
     background-color: #E59205;
     color: #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item {
+  .isotopewrapper .isotope-item {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11846,11 +11859,11 @@ button:hover {
         -ms-flex-align: center;
             align-items: center;
   }
-  .isotopewrapper .textarea .isotope-item img {
+  .isotopewrapper .isotope-item img {
     height: 90%;
     border: 3px solid #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item button {
+  .isotopewrapper .isotope-item button {
     background-color: #ffffff;
     font-family: "bebas-neu";
     font-size: 18px;
@@ -11900,7 +11913,7 @@ button:hover {
   .isotopewrapper .textarea h1 p {
     padding: 0 250px;
   }
-  .isotopewrapper .textarea .item-menu ul {
+  .isotopewrapper .item-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11908,7 +11921,7 @@ button:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .isotopewrapper .textarea .item-menu ul li {
+  .isotopewrapper .item-menu ul li {
     color: #E59205;
     list-style: none;
     padding: 12px 15px;
@@ -11920,11 +11933,11 @@ button:hover {
     cursor: pointer;
     margin: 50px;
   }
-  .isotopewrapper .textarea .item-menu ul li:hover {
+  .isotopewrapper .item-menu ul li:hover {
     background-color: #E59205;
     color: #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item {
+  .isotopewrapper .isotope-item {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11936,11 +11949,11 @@ button:hover {
         -ms-flex-align: center;
             align-items: center;
   }
-  .isotopewrapper .textarea .isotope-item img {
+  .isotopewrapper .isotope-item img {
     height: 90%;
     border: 3px solid #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item button {
+  .isotopewrapper .isotope-item button {
     background-color: #ffffff;
     font-family: "bebas-neu";
     font-size: 18px;
@@ -11955,7 +11968,7 @@ button:hover {
 
 @media only screen and (min-width: 1400px) {
   .isotopewrapper {
-    padding: 135px 0px;
+    padding: 135px 0px 300px 0px;
   }
   .isotopewrapper .textarea {
     color: #9498B3;
@@ -11971,9 +11984,9 @@ button:hover {
     position: absolute;
     content: '';
     background-color: #E59205;
-    width: 275px;
+    width: 245px;
     height: 2px;
-    top: 25%;
+    top: 8%;
     left: 0;
     display: block;
   }
@@ -11981,40 +11994,45 @@ button:hover {
     position: absolute;
     content: '';
     background-color: #E59205;
-    width: 275px;
+    width: 245px;
     height: 2px;
-    top: 25%;
+    top: 8%;
     right: 0;
     display: block;
   }
-  .isotopewrapper .textarea h1 p {
-    padding: 0 250px;
+  .isotopewrapper .textarea p {
+    margin: 0 350px;
+    font-family: "Raleway";
+    font-size: 24px;
+    line-height: 48px;
+    padding: 60px 0px 100px 0px;
   }
-  .isotopewrapper .textarea .item-menu ul {
+  .isotopewrapper .item-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 155px;
   }
-  .isotopewrapper .textarea .item-menu ul li {
+  .isotopewrapper .item-menu ul li {
     color: #E59205;
     list-style: none;
-    padding: 12px 15px;
+    padding: 20px 55px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     border: 1px solid #9498B3;
     text-align: center;
     cursor: pointer;
-    margin: 50px;
+    margin: 55px;
   }
-  .isotopewrapper .textarea .item-menu ul li:hover {
+  .isotopewrapper .item-menu ul li:hover {
     background-color: #E59205;
     color: #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item {
+  .isotopewrapper .isotope-item {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12026,20 +12044,20 @@ button:hover {
         -ms-flex-align: center;
             align-items: center;
   }
-  .isotopewrapper .textarea .isotope-item img {
+  .isotopewrapper .isotope-item img {
     height: 90%;
     border: 3px solid #ffffff;
   }
-  .isotopewrapper .textarea .isotope-item button {
+  .isotopewrapper .isotope-item button {
     background-color: #ffffff;
     font-family: "bebas-neu";
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 22px;
+    font-weight: 400;
     border: 1px solid #9498B3;
     border-radius: unset;
-    padding: 2px 5px;
+    padding: 20px 45px;
     color: #9498B3;
-    margin-left: 45px;
+    margin-top: 60px;
   }
 }
 
@@ -12304,11 +12322,55 @@ button:hover {
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .brekfastwrapper {
+    background-color: #E59205;
+    margin-top: 150px !important;
+  }
+  .brekfastwrapper .aboutRpdd {
+    padding: unset;
+  }
+  .brekfastwrapper .about-txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #E59205;
+    height: 550px;
+    padding-left: 123px;
+    padding-right: 180px;
+  }
+  .brekfastwrapper .about-txt h2 {
+    color: #ffffff;
+    font-family: "playfair-bitalic";
+    font-size: 72px;
+    line-height: 82px;
+    font-weight: 700;
+  }
+  .brekfastwrapper .about-image {
+    padding-right: 0px;
+  }
+  .brekfastwrapper .about-image img {
+    height: 550px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .brekfastwrapper .nul-padd {
+    padding: unset;
+  }
+}
+
 .cardwrapper {
   margin-top: 50px;
 }
 
-.cardwrapper .textarea h1 {
+.textarea h1 {
   font-family: "playfair-bitalic";
   font-size: 40px;
   line-height: 46px;
@@ -12316,7 +12378,7 @@ button:hover {
   color: #9498B3;
 }
 
-.cardwrapper .textarea h1::before {
+.textarea h1::before {
   position: absolute;
   content: '';
   top: 25%;
@@ -12327,7 +12389,7 @@ button:hover {
   display: none;
 }
 
-.cardwrapper .textarea h1::after {
+.textarea h1::after {
   position: absolute;
   content: '';
   top: 25%;
@@ -12338,14 +12400,14 @@ button:hover {
   display: none;
 }
 
-.cardwrapper .textarea h1 p {
+.textarea h1 p {
   font-family: "Raleway";
   font-size: 17px;
   line-height: 26px;
   color: #9498B3;
 }
 
-.cardwrapper .textarea p {
+.textarea p {
   font-family: "Raleway" !important;
   font-size: 17px;
   line-height: 26px;
@@ -12353,14 +12415,14 @@ button:hover {
 }
 
 @media only screen and (min-width: 1140px) {
-  .cardwrapper .textarea h1 {
+  .textarea h1 {
     font-family: "playfair-bitalic";
     font-size: 72px;
     line-height: 82px;
     font-weight: 700;
     color: #9498B3;
   }
-  .cardwrapper .textarea h1::before {
+  .textarea h1::before {
     position: absolute;
     content: '';
     top: 20%;
@@ -12370,7 +12432,7 @@ button:hover {
     background-color: #E59205;
     display: block;
   }
-  .cardwrapper .textarea h1::after {
+  .textarea h1::after {
     position: absolute;
     content: '';
     top: 20%;
@@ -12380,7 +12442,7 @@ button:hover {
     background-color: #E59205;
     display: block;
   }
-  .cardwrapper .textarea p {
+  .textarea p {
     font-family: "Raleway";
     font-size: 24px;
     line-height: 48px;
@@ -12390,47 +12452,53 @@ button:hover {
 }
 
 @media only screen and (min-width: 1400px) {
-  .cardwrapper .textarea h1 {
+  .cardwrapper {
+    margin-top: 145px;
+  }
+  .textarea {
+    padding: 0px 0px 100px 0px;
+  }
+  .textarea h1 {
     font-family: "playfair-bitalic";
     font-size: 72px;
     line-height: 82px;
     font-weight: 700;
     color: #9498B3;
   }
-  .cardwrapper .textarea h1::before {
+  .textarea h1::before {
     position: absolute;
     content: '';
-    top: 20%;
-    left: 5px;
-    width: 275px;
+    top: 8%;
+    left: 0;
+    width: 245px;
     height: 2px;
     background-color: #E59205;
     display: block;
   }
-  .cardwrapper .textarea h1::after {
+  .textarea h1::after {
     position: absolute;
     content: '';
-    top: 20%;
-    right: 5px;
-    width: 275px;
+    top: 8%;
+    right: 0;
+    width: 245px;
     height: 2px;
     background-color: #E59205;
     display: block;
   }
-  .cardwrapper .textarea p {
+  .textarea p {
     font-family: "Raleway";
     font-size: 24px;
     line-height: 48px;
     color: #9498B3;
-    padding: 0px 170px;
+    padding: 70px 170px;
   }
 }
 
-.cardwrapper .crdconte {
+.crdconte {
   padding: 75px 20PX 75PX 20PX;
 }
 
-.cardwrapper .crdconte h1 {
+.crdconte h1 {
   color: #9498B3;
   font-size: 30px;
   line-height: 40px;
@@ -12438,7 +12506,7 @@ button:hover {
   font-family: "Playfair-display";
 }
 
-.cardwrapper .crdconte p {
+.crdconte p {
   font-family: "Raleway";
   color: #9498B3;
   font-size: 16px;
@@ -12446,10 +12514,40 @@ button:hover {
   font-weight: 400;
 }
 
-.cardwrapper .crdconte button {
+.crdconte button {
   background-color: rgba(0, 0, 0, 0);
   color: #9498B3;
   border: 1px solid #9498B3;
+}
+
+@media only screen and (min-width: 1400px) {
+  .crdconte {
+    padding: 0px 85PX 140PX 85PX;
+  }
+  .crdconte h1 {
+    color: #9498B3;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Playfair-display";
+  }
+  .crdconte p {
+    font-family: "Raleway";
+    color: #9498B3;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+  }
+  .crdconte button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #9498B3;
+    border: 1px solid #9498B3;
+    padding: 20px 40px;
+    font-family: "bebas-neu";
+    font-size: 30px;
+    line-height: 48px;
+    margin-top: 70px;
+  }
 }
 
 .footerbanner {
@@ -12538,6 +12636,51 @@ button:hover {
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .footerbanner {
+    background-image: url(../images/footer.png);
+    height: 650px;
+    width: 100%;
+  }
+  .contain-are {
+    padding-bottom: 145px;
+  }
+  .contain-are h1 {
+    padding-top: 130px;
+    font-family: "playfair-bitalic";
+    font-size: 72px;
+    line-height: 82px;
+  }
+  .contain-are input {
+    width: 50%;
+    text-align: center;
+    font-size: 25PX;
+    line-height: 30PX;
+    font-family: "bebas-neu";
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    padding: 30px 216px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+  }
+  .contain-are button {
+    background-color: #E59205;
+    color: #ffffff;
+    border: none;
+    font-family: "bebas-neu";
+    font-weight: 700;
+    font-size: 29.97px;
+    line-height: 47.95px;
+    padding: 14px 45px;
+  }
+  .contain-are button:hover {
+    background-color: #ffffff;
+    color: #E59205;
+    border: none;
+  }
+}
+
 .footer .copyrightsec {
   padding: 30px 0px;
 }
@@ -12546,6 +12689,7 @@ button:hover {
   color: #9498B3;
   font-size: 16;
   font-family: "Raleway";
+  text-align: center;
 }
 
 .footer .copyrightsec ul {
@@ -12555,17 +12699,23 @@ button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0px;
 }
 
 .footer .copyrightsec ul li {
   list-style: none;
-  padding: 5px;
+  padding: 3px;
 }
 
 .footer .copyrightsec ul li a {
   font-family: "Raleway";
   text-decoration: none;
   color: #9498B3;
+  text-transform: uppercase;
+}
+
+.footer .copyrightsec ul li a:hover {
+  color: #E59205;
 }
 
 @media only screen and (min-width: 768px) {
@@ -12586,6 +12736,34 @@ button:hover {
   .footer .copyrightsec ul li {
     list-style: none;
     padding-left: 20px;
+  }
+  .footer .copyrightsec ul li a {
+    text-decoration: none;
+    color: #9498B3;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .footer .copyrightsec {
+    padding: 30px 0px;
+  }
+  .footer .copyrightsec p {
+    color: #9498B3;
+    text-align: start;
+    padding: 70px 0px;
+  }
+  .footer .copyrightsec ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    padding: 70px 0px;
+  }
+  .footer .copyrightsec ul li {
+    list-style: none;
+    padding: 0px 20px;
   }
   .footer .copyrightsec ul li a {
     text-decoration: none;
